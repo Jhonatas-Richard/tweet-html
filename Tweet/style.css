@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+
+    font-family: 'Roboto', sans-serif; 
+} 
+
+:root {
+    --text: #0f1419;
+    --icons-text: #536471 ;
+    --border: #DADDDF;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+
+.header {
+     display: flex;
+     justify-content: sp;
+}
+
+.container-tweet {
+    width: 591px;
+    height: 161px;
+
+    display: flex;
+
+    border: 1px solid var(--border)
+}
+
+.image {
+    width: 48px;
+    margin-top: 17px;
+    margin-left: 17px;
+    
+}
+
+.mark {
+    font-size: 15px;
+    width: 31px;
+    height: 18px;
+    margin-top: 17px;
+    margin-left: 12px;
+}
+
+.verified {
+    width: 15px;
+    height: 15px;
+    margin-top: 18px;
+    margin-left: 3px;
+}
+
+.user {
+    color: var(--icons-text);
+    font-size: 15px;
+    margin-top: 17px;
+    margin-left: 6px;
+
+}
+
+
+.dot {
+    
+    width: 3px;
+    height: 3px;
+
+    background-color: var(--icons-text);
+
+    display:inline-block;
+
+    border-radius: 50%;
+    margin-top: 23px;
+    margin-left: 5px;
+
+}
+
+.date {
+    font-size: 15px;
+    color: var(--icons-text);
+    margin-top: 17px;
+    margin-left: 4px;
+    
+}
+
+.main{
+    color: var(--text);
+    margin-top: 3px;
+    margin-left: 12px;
+    font-size: 15px;
+
+}
+
+.margin {
+    color: var(--text);
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.fotter {
+    display: flex;
+
+}
+
+.comments{
+    margin-left: 12px;
+    margin-top: 16px;
+    
+}
+
+.comments-field {
+    color: #536471;
+    margin-left: 17px;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.retweet {
+    margin-left: 73px;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.retweet-field {
+    color: #536471;
+    margin-left: 18px;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.favorites {
+    margin-left: 73px;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.favorite-field {
+    color: #536471;
+    margin-left: 17px;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.share-field {
+    margin-left: 73px;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
